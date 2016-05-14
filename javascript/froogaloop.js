@@ -21,6 +21,8 @@ var Froogaloop = (function(){
             }
 
             this.element = iframe;
+            isReady = true;
+            playerOrigin = '*';
 
             return this;
         },
